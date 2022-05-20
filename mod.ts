@@ -4,7 +4,7 @@ function handler(_req: Request) {
   const data = {
     Hello: "World!",
   };
-  return new Response.json(body);
+  return new Response.json(data);
 }
 
 console.log("Listening on http://localhost:8000");
